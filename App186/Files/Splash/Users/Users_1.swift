@@ -28,7 +28,7 @@ struct Users_1: View {
                 
                 VStack(spacing: 7, content: {
                     
-                    Text("Comfortable Trading view")
+                    Text("The new Trading view")
                         .foregroundColor(.black)
                         .font(.system(size: 23, weight: .semibold))
                         .multilineTextAlignment(.center)
@@ -54,7 +54,7 @@ struct Users_1: View {
                         .font(.system(size: 14, weight: .medium))
                         .frame(maxWidth: .infinity)
                         .frame(height: 50)
-                        .background(RoundedRectangle(cornerRadius: 10).fill(Color("primary")))
+                        .background(RoundedRectangle(cornerRadius: 10).fill(Color(red: 0/255, green: 107/255, blue: 233/255)))
                         .padding()
                 })
             }

@@ -50,7 +50,7 @@ struct Reviewers_1: View {
                         .font(.system(size: 14, weight: .medium))
                         .frame(maxWidth: .infinity)
                         .frame(height: 50)
-                        .background(RoundedRectangle(cornerRadius: 10).fill(Color("primary")))
+                        .background(RoundedRectangle(cornerRadius: 10).fill(Color(red: 0/255, green: 107/255, blue: 233/255)))
                         .padding()
                 })
             }
